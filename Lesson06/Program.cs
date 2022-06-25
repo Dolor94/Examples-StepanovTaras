@@ -6,7 +6,7 @@
 // 782 -> 2
 // 918 -> 8
 
-Console.WriteLine("Введите трёх значное число: ");
+Console.WriteLine("Введите трёхзначное число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 if (number < 100 | number >= 1000)
 {
