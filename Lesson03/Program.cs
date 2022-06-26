@@ -12,6 +12,6 @@ if (number % 2 == 0)
 }
 else 
 {
-    Console.WriteLine("Ваше число является нечётным");
+    Console.WriteLine("Ваше число не является чётным");
 }
 Console.WriteLine("До свидания!");
