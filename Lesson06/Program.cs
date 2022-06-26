@@ -6,12 +6,15 @@
 // 782 -> 2
 // 918 -> 8
 
-Console.WriteLine("Введите трёхзначное число: ");
+Console.Write("Введите трёхзначное число: ");
 int number = Convert.ToInt32(Console.ReadLine());
-if (number < 100 | number >= 1000)
+int last_digit = number % 10;
+if (number < 100 || number >= 1000)
 {
-    Console.WriteLine("Ошибка, введите трёхзначное число");
+    Console.WriteLine("Ошибка, введите трёхзначное число!");
     return;
 }
-int last_digit = number % 10;
-Console.WriteLine("Последняя цифра вашего числа: " + last_digit);
+else
+{
+    Console.WriteLine("Последняя цифра вашего числа: " + last_digit);
+}
