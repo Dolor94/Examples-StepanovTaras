@@ -6,11 +6,11 @@
 
 int rndNum = new Random().Next(100, 1000);
 Console.WriteLine(rndNum);
-
 int secondFigure = rndNum % 100 / 10;
 Console.WriteLine($"Второй цифрой числа {rndNum} является цифра {secondFigure}");
 
 // либо если мы просим пользователя ввести трёхначное число:
+
 // Console.Write("Введите трёхзначное число: ");
 // int number = Convert.ToInt32(Console.ReadLine());
 // int secondFigure = number % 100 / 10;
