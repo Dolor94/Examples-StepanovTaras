@@ -17,3 +17,4 @@
     case 7: Console.WriteLine("7-ой день недели - это Воскресенье, является выходным днём!"); break;
     default: Console.WriteLine("Ошибка, такого дня недели нет!"); break;
  }
+ 
