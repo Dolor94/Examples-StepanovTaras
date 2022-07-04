@@ -5,28 +5,6 @@
 // 12821 -> да
 // 23432 -> да
 
-// 1-ый вариант решение через строку:
-
-// Console.Write("Введите пятнизначное число: ");
-// int number = Convert.ToInt32(Console.ReadLine());
-// string palindrome = Convert.ToString(number);
-// int length = palindrome.Length-1;
-// for (int index = 0; index < length; index++)
-// {
-//     if (palindrome[index] == palindrome[length])
-//     {
-//         Console.WriteLine($"{palindrome[index]} и {palindrome[length]} равны"); length--;
-//     }
-//     else if (palindrome[index] != palindrome[length])
-//     {
-//     Console.WriteLine($"{palindrome[index]} и {palindrome[length]} не равны"); 
-//     Console.WriteLine($"Число {number} не является палиндромом!"); break;
-//     }
-// }
-
-
-// 2-ой вариант решения:
-
 Console.Write("Введите пятизначное число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 int temp = number;
