@@ -62,6 +62,5 @@ void FindAverageNumbersColumn(int[,] matrix)
 }
 
 int[,] matrixRndInt = CreateMatrixRndInt(lines, columns, minNumber, maxNumber);
-
 PrintMatrixRndInt(matrixRndInt);
 FindAverageNumbersColumn(matrixRndInt);
