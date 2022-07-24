@@ -76,7 +76,6 @@ void FindUserElement(int[,] matrix)
                 break;
             }
         }
-        break; 
     }
 }
 FindUserElement(matrixRndInt);
